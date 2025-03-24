@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <button class="use-case-toggle" aria-label="Toggle details">${chevronDown}</button>
         </div>
         <div class="use-case-content">
-          <p class="use-case-short">${useCase.short}</p>
+          <h4 class="use-case-short">${useCase.short}</h4>
           <div class="use-case-full">${useCase.full}</div>
         </div>
       `;
